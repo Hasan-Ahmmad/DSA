@@ -13,7 +13,7 @@ public:
     }
 };
 
-void insert_at_tail(Node* &head, int val){
+void insert_at_tail(Node* &head, int val){ //O(N)
 
     Node* newnode= new Node(val);
 
