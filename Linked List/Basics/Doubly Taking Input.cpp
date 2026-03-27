@@ -25,6 +25,7 @@ void Print_forward(Node* head){
     cout<<endl;
 }
 
+// Used this function to take input
 void insert_at_tail(Node* &head, Node* &tail, int val){
 
     Node* newnode = new Node(val);
