@@ -10,7 +10,6 @@ public:
             }
             else s += address[i];
         }
-
         return s;
     }
 };
